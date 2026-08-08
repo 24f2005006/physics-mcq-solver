@@ -2,6 +2,14 @@
 
 This application deploys the LSTM model trained for multiple-choice question answering.
 
+# Directory Structure
+
+physics-mcq-solver
+├── README.md
+├── app.py
+├── lstm_checkpoint.pt
+└── requirements.txt
+
 
 # Deployment
 The model has been successfully deployed and is live. Users can access the application for real-time inference and prediction generation. One can use the examples provided at the bottom of the webpage for a quick check of the application. Click here to access the web application. [Click here](https://physics-mcq-solver.onrender.com)
