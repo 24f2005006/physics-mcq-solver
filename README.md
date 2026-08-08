@@ -3,16 +3,17 @@
 This application deploys the LSTM model trained for multiple-choice question answering.
 
 
-## Local
+# Deployment
+The model has been successfully deployed and is live. Users can access the application for real-time inference and prediction generation. One can use the examples provided at the bottom of the webpage for a quick check of the application. Click here to access the web application. [Click here](https://physics-mcq-solver.onrender.com)
+
+# Local installation
 
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
-Deployment
-The model has been successfully deployed and is live. Users can access the application for real-time inference and prediction generation. One can use the examples provided at the bottom of the webpage for a quick check of the application. Click here to access the web application. [Click here](https://physics-mcq-solver.onrender.com)
 
-Project Overview
+# Project Overview
 Welcome to the Smart MCQ Solver Challenge!
 
 In this competition, participants are required to build AI based systems capable of solving complex multiple choice questions. Each question contains a prompt along with five possible answer options labeled A, B, C, D, and E. The objective is to predict the top three most likely correct answers in ranked order.
